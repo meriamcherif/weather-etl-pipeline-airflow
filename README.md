@@ -65,15 +65,13 @@ Docker ensures that the entire project (Airflow, PostgreSQL, and your pipeline c
    cd etlweather
 2. Start the Airflow environment:
 astro dev start
-3.Trigger the DAG:
-Locate the weather_etl_pipeline DAG in the Airflow UI.
-Trigger it manually or let it run automatically on schedule.
 
-4.Check PostgreSQL Data:
+3. Trigger the DAG
+
+4. Check PostgreSQL Data:
 Connect to the PostgreSQL database using a client like pgAdmin or via the terminal.
 Query the weather_data table
 
 ### Airflow DAG Overview
 ![Airflow DAG Overview](screenshots/airflow.png)
-
 
